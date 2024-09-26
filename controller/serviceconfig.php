@@ -24,3 +24,4 @@ date_default_timezone_set($set['timezone']);
 		}
 	}
 	$main = $service->query("SELECT * FROM `tbl_validate`")->fetch_assoc();
+?>
