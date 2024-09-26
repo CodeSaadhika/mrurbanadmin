@@ -5,7 +5,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
-  $service = new mysqli("https://mysql-bc05bba-mrurbanadmin.g.aivencloud.com:23888", "avnadmin", "AVNS_73ux2SwxgHAXxW7YmdR", "defaultdb");
+  $service = new mysqli("mysql-bc05bba-mrurbanadmin.g.aivencloud.com:23888", "avnadmin", "AVNS_73ux2SwxgHAXxW7YmdR", "defaultdb");
   $service->set_charset("utf8mb4");
 } catch(Exception $e) {
   error_log($e->getMessage());
