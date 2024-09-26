@@ -5,8 +5,8 @@
     }
   },
   "routes": [
-    {"src": "/assets/*/*/*", "dest": "/assets/*/*/*"},
-    {"src": "/assets/*/*/*/*", "dest": "/assets/*/*/*/*"},
+    {"src": "/assets/*/*/*", "dest": "/assets/$1/$2/$3"},
+    {"src": "/assets/*/*/*/*", "dest": "/assets/$1/$2/$3/$4"},
     {"src": "/(.*)", "dest": "/api/index.php"}
   ]
 }
