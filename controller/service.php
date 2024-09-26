@@ -1,5 +1,5 @@
 <?php
-require 'controller/serviceconfig.php';
+require './controller/serviceconfig.php';
 // $afile = $main['data'];
 // echo $afile;
 if ($set['show_dark'] == 1) {
