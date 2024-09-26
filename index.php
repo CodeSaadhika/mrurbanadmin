@@ -52,7 +52,7 @@ include 'controller/fronthead.php';
   </section>
   <!-- page-wrapper end-->
   <!-- latest jquery-->
-  <?php include 'controller/service.php'; ?>
+  <?php // include 'controller/service.php'; ?>
   <!-- login js-->
   <!-- Plugin used-->
 </body>
