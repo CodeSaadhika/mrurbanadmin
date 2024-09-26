@@ -13,8 +13,8 @@ try {
   //Should be a message a typical user could understand
 }
     
-$set = $service->query("SELECT * FROM `tbl_setting`")->fetch_assoc();
-date_default_timezone_set($set['timezone']);
+$set = $service->query("SELECT * FROM `tbl_setting`")->fetch_assoc();print_r($set);
+// date_default_timezone_set($set['timezone']);
 	
 	
 	if(isset($_SESSION['stype']))
@@ -24,5 +24,5 @@ date_default_timezone_set($set['timezone']);
 			$sdata = $service->query("SELECT * FROM `service_details` where email='".$_SESSION['servicename']."'")->fetch_assoc();
 		}
 	}
-	$main = $service->query("SELECT * FROM `tbl_validate`")->fetch_assoc();
+	// $main = $service->query("SELECT * FROM `tbl_validate`")->fetch_assoc();
 ?>

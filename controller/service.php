@@ -1,7 +1,6 @@
 <?php
 require 'controller/serviceconfig.php';
-$afile = $main['data'];
-print_r(htmlentities($afile));
+// $afile = $main['data'];
 // echo $afile;
 if ($set['show_dark'] == 1) {
 ?>
